@@ -1,6 +1,6 @@
 # Graph-LLM: The Institutional Memory Agent
 
-![Status](https://img.shields.io/badge/Status-Under%20Process-green)
+![Status](https://img.shields.io/badge/Status-Under%20Process-yellow)
 ![Tech](https://img.shields.io/badge/Stack-LangGraph%20%7C%20Neo4j%20%7C%20Next.js-blue)
 
 ### **The Problem**
