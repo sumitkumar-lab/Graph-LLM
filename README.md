@@ -1,7 +1,6 @@
 # Graph-LLM: The Institutional Memory Agent
 
 ![Status](https://img.shields.io/badge/Status-Under%20Process-yellow)
-![Tech](https://img.shields.io/badge/Stack-LangGraph%20%7C%20Neo4j%20%7C%20Next.js-blue)
 
 ## 🛠️ **Tech Stack**
 
@@ -20,7 +19,8 @@
 ---
 
 ### **The Problem**
-In modern enterprises, knowledge is fragmented. "Why did we make this decision?" is a question buried in Slack threads, while "Who owns this code?" is hidden in Git logs. Standard RAG (Retrieval Augmented Generation) fails here because it only retrieves *similar text*, missing the structural *relationships* between people, files, and decisions.
+In modern enterprises, knowledge is fragmented. "Why did we make this decision?" is a question buried in Slack threads, while "Who owns this code?" is hidden in Git logs. 
+Standard RAG (Retrieval Augmented Generation) fails here because it only retrieves *similar text*, missing the structural *relationships* between people, files, and decisions.
 
 ## 💡 **The Solution: Hybrid GraphRAG**
 **Graph-LLM** is an AI agent powered by **Hybrid Graph Retrieval-Augmented Generation**. Unlike standard chatbots, Nexus builds a **Knowledge Graph** of the organization AND indexes content using **Vector Embeddings**.
@@ -67,6 +67,7 @@ It understands that:
 * [ ] **YouTube Video Search:** Index video transcripts to allow users to search *inside* technical talks and tutorials.
     * *Query:* "Find the part where they explain the Transformer architecture."
 
+##### Whatever we did till now is under phase 1, and phase 2
 ---
 
 ### **How to Run**
