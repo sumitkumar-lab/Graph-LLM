@@ -9,4 +9,5 @@ python-dotenv
 pydantic
 langchain-groq
 langchain-neo4j
-neo4j
+langchain-huggingface
+sentence-transformers
